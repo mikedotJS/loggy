@@ -703,7 +703,7 @@ export function SimpleLogViewer({
       </Card>
 
       {/* Log entries */}
-      <Card>
+      <Card className="py-0">
         <CardContent className="p-0">
           {filteredEntries.length > 0 ? (
             <VirtualizedLogList entries={filteredEntries} />
